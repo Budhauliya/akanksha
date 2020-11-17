@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="505" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:44Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Grouping.Testcase1()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase1" class="Driven.Grouping"/>
+        <method signature="Grouping.Testcase2()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase2" class="Driven.Grouping"/>
+        <method signature="Grouping.Testcase3()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase3" class="Driven.Grouping"/>
+        <method signature="Grouping.Testcase4()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase4" class="Driven.Grouping"/>
+        <method signature="Grouping.Testcase5()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase5" class="Driven.Grouping"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Grouping.Testcase6()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase6" class="Driven.Grouping"/>
+        <method signature="Grouping.Testcase7()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase7" class="Driven.Grouping"/>
+        <method signature="Grouping.Testcase8()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase8" class="Driven.Grouping"/>
+        <method signature="Grouping.Testcase9()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase9" class="Driven.Grouping"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="505" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:44Z">
+      <class name="Driven.driven">
+        <test-method status="PASS" signature="testcase2(java.lang.String, java.lang.String)[pri:0, instance:Driven.driven@51efea79]" name="testcase2" duration-ms="5" started-at="2020-10-19T10:10:43Z" data-provider="dp2" finished-at="2020-10-19T10:10:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ajh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase2(java.lang.String, java.lang.String)[pri:0, instance:Driven.driven@51efea79]" name="testcase2" duration-ms="2" started-at="2020-10-19T10:10:43Z" data-provider="dp2" finished-at="2020-10-19T10:10:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bkl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase2(java.lang.String, java.lang.String)[pri:0, instance:Driven.driven@51efea79]" name="testcase2" duration-ms="2" started-at="2020-10-19T10:10:43Z" data-provider="dp2" finished-at="2020-10-19T10:10:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cjk]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase2(java.lang.String, java.lang.String)[pri:0, instance:Driven.driven@51efea79]" name="testcase2" duration-ms="5" started-at="2020-10-19T10:10:43Z" data-provider="dp2" finished-at="2020-10-19T10:10:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uhui]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- Driven.driven -->
+      <class name="Driven.Grouping">
+        <test-method status="PASS" signature="Testcase1()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase1" duration-ms="19" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase1 -->
+        <test-method status="PASS" signature="Testcase2()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase2" duration-ms="8" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+        <test-method status="PASS" signature="Testcase3()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase3" duration-ms="3" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase3 -->
+        <test-method status="PASS" signature="Testcase4()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase4" duration-ms="2" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase4 -->
+        <test-method status="PASS" signature="Testcase5()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase5" duration-ms="2" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase5 -->
+        <test-method status="PASS" signature="Testcase6()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase6" duration-ms="2" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase6 -->
+        <test-method status="PASS" signature="Testcase7()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase7" duration-ms="2" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase7 -->
+        <test-method status="PASS" signature="Testcase8()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase8" duration-ms="3" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase8 -->
+        <test-method status="PASS" signature="Testcase9()[pri:0, instance:Driven.Grouping@6d00a15d]" name="Testcase9" duration-ms="2" started-at="2020-10-19T10:10:43Z" finished-at="2020-10-19T10:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase9 -->
+      </class> <!-- Driven.Grouping -->
+      <class name="Driven.FbloginwithDataprovider">
+        <test-method status="SKIP" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Driven.FbloginwithDataprovider@5034c75a]" name="login" duration-ms="0" started-at="2020-10-19T10:10:43Z" data-provider="dp1" finished-at="2020-10-19T10:10:43Z">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.io.FileNotFoundException: C:\Users\Akanksha\Desktop\Rani_test.xls (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\Akanksha\Desktop\Rani_test.xls (The system cannot find the file specified)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.io.FileNotFoundException: C:\Users\Akanksha\Desktop\Rani_test.xls (The system cannot find the file specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at jxl.Workbook.getWorkbook(Workbook.java:213)
+at jxl.Workbook.getWorkbook(Workbook.java:198)
+at Driven.FbloginwithDataprovider.dp1(FbloginwithDataprovider.java:39)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Driven.FbloginwithDataprovider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
